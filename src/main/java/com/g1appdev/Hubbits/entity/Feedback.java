@@ -1,6 +1,4 @@
 package com.g1appdev.Hubbits.entity;
-
-
 import jakarta.persistence.*;
 import java.time.LocalDate;
 
@@ -10,7 +8,6 @@ public class Feedback {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long feedbackId;
-
     private String message;
     private LocalDate feedbackDate;
 
